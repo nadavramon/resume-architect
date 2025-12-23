@@ -84,6 +84,7 @@ app.py - Streamlit frontend and AI logic.
 
 test/ServerApp.java - Java backend source code (Pub/Sub).
 
+Note: The pre-compiled server.jar is included for demonstration purposes. In a production environment, this would be built from the source via CI/CD.
 server.jar - Compiled Java backend artifact.
 
 start_system.sh - Orchestration script.

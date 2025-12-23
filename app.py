@@ -20,7 +20,8 @@ client = Groq(api_key=api_key)
 
 # --- THE JAVA INTEGRATION LAYER ---
 def publish_to_java_backend(event_type, payload):
-    JAVA_SERVER_URL = "http://localhost:8080/publish" 
+    # Fetch URL from .env, or default to localhost if not set
+    JAVA_SERVER_URL = os.getenv("JAVA_BACKEND_URL", "http://localhost:8080/publish")
     
     # Create the JSON string manually
     json_payload = json.dumps({
