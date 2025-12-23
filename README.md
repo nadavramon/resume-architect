@@ -53,7 +53,7 @@ Installation
 1.Clone the repo:
 
 ```bash
-git clone [https://github.com/yourusername/resume-architect.git](https://github.com/nadavramon/resume-architect.git)
+git clone [https://github.com/nadavramon/resume-architect.git](https://github.com/nadavramon/resume-architect.git)
 cd resume-architect
 ```
 
