@@ -1,5 +1,26 @@
-# .gitignore
+# Logs
+transactions.log
+*.log
+
+# Virtual Environment
 venv/
 __pycache__/
-*.env
+
+# Environment Variables (Secrets)
+.env
+
+# IDE Settings (IntelliJ/VSCode)
+.idea/
+.vscode/
+*.iml
+
+# Java Compiled Artifacts
+out/
+target/
+*.class
+# We usually ignore JARs, but since you are submitting a demo, 
+# you might want to keep server.jar. If not, uncomment the next line:
+# *.jar
+
+# OS junk
 .DS_Store
